@@ -23,10 +23,14 @@
             font-weight: lighter;
             
         }
-
+         .label {
+             color: black;
+             padding: 10px;            
+         }
         p {
             color: #8ed3e6;
         }
+        
 
         b {
             font-size: 20px;
