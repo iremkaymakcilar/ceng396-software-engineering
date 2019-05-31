@@ -1,8 +1,36 @@
+/*Css file for master pages*/
 /*
 * this file is created by Devma at 11/10/2017
 *
 */
+ .textbox {
+          
+            position: static;
+            border: 5px solid #8ed3e6;
+            margin: 0;
+            text-align: left;
+             width: 500px;
+            height: 80px;
+            font-size:20px 
+            
 
+        }
+        .Button 
+         {
+           
+            color: #fff;
+	        background-color:#8ed3e6;
+	        height: 70px;
+	        width: 120px;
+	        padding:5px;
+            border:none 0px transparent;
+	        font-size: 20px;
+	        font-weight: lighter;
+         }
+        p {         
+ 
+            color:#8ed3e6;
+        }
 * {
     padding: 0;
     margin: 0;
@@ -141,79 +169,7 @@ html, body {
         right: 0;
     }
 
-.goahead {
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    background-color: blue;
-    right: 0px;
-    left: 0px;
-    margin: -27px auto;
-    z-index: 4;
-    background-color: #8ed3e6;
-}
 
-    .goahead a {
-        color: #fff;
-        text-transform: uppercase;
-        text-align: center;
-        display: block;
-        margin-top: 13px;
-        font-family: 'Rokkitt',serif;
-        font-size: 1.4em;
-    }
-
-.about-me {
-    padding: 50px 70px;
-    overflow: auto;
-}
-
-.about-me-intero {
-    padding: 110px 200px 50px 200px;
-}
-
-.about-me .about-me-intero h1 {
-    color: #8ed3e6;
-    text-align: center;
-    font-weight: bold;
-    padding-bottom: 50px;
-}
-
-.about-me .about-me-intero p {
-    text-align: center;
-    font-family: sans-serif;
-    color: #95a5a6;
-    padding: 0px 140px;
-    line-height: 25px;
-}
-
-.about-me-block {
-    overflow: auto;
-    padding: 10px 0px 0px 0px;
-}
-
-.item {
-    padding: 0px;
-}
-
-.about-me-block .item img {
-    margin: auto;
-    display: block;
-}
-
-.about-me-block .item h3 {
-    color: #1abc9c;
-    text-align: center;
-}
-
-.about-me-block .item p {
-    padding: 10px 65px 0px 65px;
-    text-align: left;
-    color: #95a5a6;
-    line-height: 25px;
-    word-spacing: 0px;
-    text-align: justify;
-}
 
 .separate {
     border: 1px solid #e4e8e8;
@@ -236,140 +192,7 @@ html, body {
         margin: auto;
     }
 
-.more-details {
-    display: none;
-    position: absolute;
-    width: 400px;
-    height: 300px;
-    top: 0;
-    right: 138px;
-    cursor: pointer;
-}
 
-    .more-details > img {
-        float: right;
-        padding: 10px;
-        background-color: #8ed3e6;
-        outline: 8px solid rgba(26, 188, 156, 0.52);
-        margin: 30px;
-        cursor: pointer;
-    }
-
-    .more-details .description {
-        position: absolute;
-        z-index: 5;
-        bottom: 0;
-        left: 0;
-        width: 401px;
-        right: 0;
-        margin: auto;
-        background-color: #8ed3e6;
-        display: block;
-    }
-
-        .more-details .description::before {
-            content: "";
-            border-top: 10px solid rgba(26, 188, 156, 0.52);
-            position: absolute;
-            bottom: 86px;
-            width: 100%;
-        }
-
-.work-item .description h3 {
-    text-align: center;
-    color: #fff;
-}
-
-.work-item .description p {
-    text-align: center;
-    color: #000;
-}
-
-.work .view-more {
-    width: 100%;
-    overflow: auto;
-    text-align: center;
-    padding: 10px 0px;
-}
-
-    .work .view-more a {
-        text-align: center;
-        display: inline-block;
-        padding: 20px;
-        font-size: 1.2em;
-        width: 250px;
-        color: #fff;
-        background-color: #8ed3e6;
-        text-transform: uppercase;
-        background-image: url("../img/Arrow.png");
-        background-repeat: no-repeat;
-        background-position: 200px 20px;
-        text-decoration: none;
-        letter-spacing: 2px;
-    }
-
-.contact-us {
-    padding: 50px 0 200px 0;
-    width: 100%;
-    overflow: auto;
-}
-
-    .contact-us h1 {
-        color: #1abc9c;
-        text-align: center;
-        padidth: 350px;
-        height: 50px;
-        margin: 10px;
-        background-color: #e4e8e8;
-        outline: none;
-        border: 0;
-        font-width: 750px;
-        margin: auto;
-        text-align: center;
-    }
-
-    .contact-us .name-info input {
-        width: 350px;
-        height: 50px;
-        margin: 10px;
-        background-color: #e4e8e8;
-        outline: none;
-        border: 0;
-        font-size: 2em;
-        padding: 5px 25px;
-        color: #AAA;
-    }
-
-    .contact-us input::-webkit-input-placeholder, .contact-us textarea::-webkit-input-placeholder {
-        color: #cecece;
-    }
-
-    .contact-us form textarea {
-        margin: 10px;
-        width: 725px;
-        height: 250px;
-        background-color: #e4e8e8;
-        outline: none;
-        border: 0;
-        resize: none;
-        font-size: 2em;
-        padding: 5px 25px;
-        color: #AAA;
-    }
-
-    .contact-us button {
-        text-align: center;
-        display: inline-block;
-        padding: 20px;
-        margin-bottom: 40px;
-        font-size: 1.2em;
-        width: 250px;
-        color: #fff;
-        background-color: #8ed3e6c;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        border: 0;
-    }
 
 .footer {
     background-color: #8ed3e6;
@@ -532,41 +355,4 @@ html, body {
             right: 0;
         }
 
-    .contact-us {
-        width: 100%;
-        overflow: visible;
-        padding: 50px 0 75px 0;
-    }
-
-        .contact-us .name-info {
-            width: 100%;
-        }
-
-            .contact-us .name-info input {
-                display: block;
-                margin: 5px auto;
-                width: 95%;
-            }
-
-        .contact-us form textarea {
-            width: 95%;
-            margin: 5px auto;
-        }
-
-    .sociaux {
-        padding: 0;
-        right: 0;
-        left: 0;
-        width: 90%;
-        margin: -50px auto;
-        position: absolute;
-    }
-
-    .copyright {
-        right: 0;
-        left: 13px;
-        margin: 127px auto;
-        text-align: center;
-        position: absolute;
-    }
 }
