@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Before.Master.cs" Inherits="minwin.Site2" %>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>minwin</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/wow.min.js"></script>
+    <script> new WOW().init(); </script>
+      <style>
+          .custom {
+    width: 125px 
+}
+      </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="navbar">
+        <ul class=""  id="navbarid">
+      <a href="Login.aspx" class="btn btn-info custom">
+          <span class="glyphicon glyphicon-ok"></span> Login
+        </a>
+            <a href="Register.aspx" class="btn btn-info custom">
+          <span class="glyphicon glyphicon-plus"></span> Signup
+        </a>
+          
+        </ul>
+      </div>
+      <div class="header-content">
+      </div>
+      <img src="img/banner.PNG" alt="">
+      
+    </div>
+    <!-- CONTENT -->
+      <form  runat="server">
+      <div id="content_area">
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    
+
+      </asp:ContentPlaceHolder>        
+      </div>
+          </form>
+    <div class="footer">     
+      <div class="copyright">
+        <h5>CENG 396 TERM PROJECT</h5>
+      </div>
+    </div>
+<div class="goTop"><i class="fa fa-arrow-up" aria-hidden="true"></i></div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/mainscript.js"></script>
+  </body>
+</html>
+
