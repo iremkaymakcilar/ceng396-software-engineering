@@ -65,7 +65,7 @@ namespace minwin
             }
             
             Response.Write("Item Successfully Added");
-            Response.Redirect("AdminHome.aspx");
+            Response.Redirect("HomePage.aspx");
 
 
         }
