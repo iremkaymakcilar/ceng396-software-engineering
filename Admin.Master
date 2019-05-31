@@ -21,7 +21,7 @@
       <script src="js/skel.min.js"></script>
       <style>
           .custom {
-    width: 135px 
+    width: 145px 
 }
       </style>
     <script> new WOW().init(); </script>
