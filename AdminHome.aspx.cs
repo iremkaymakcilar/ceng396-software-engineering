@@ -43,15 +43,15 @@ namespace minwin
                             LiteralControl l1 = new LiteralControl();
                             Image img = new Image();
                             img.ImageUrl = "data:image;base64," + Convert.ToBase64String(img1);
-                            img.Height = 100;
-                            img.Width = 100;
+                            img.Height = 140;
+                            img.Width = 140;
                             var id = "imge" + i.ToString();
                             img.ID = id;
                             c.FindControl(id);
                             img.CssClass = "card-img-top";
                             c.Controls.Add(img);
                             c.FindControl("imge");
-                            url = "Item.aspx?id=" + x.item_id;
+                            url = "Adminitem.aspx?id=" + x.item_id;
                             LiteralControl l2 = new LiteralControl();
                             code = "<div class='card-body'><h5 class='card-title'" + x.title + "</h5><p class='card-text'>" + x.description + "</p><a href ='" + url + "'class='btn btn-primary custom'>View Product</a></div></div>";
                             l2.Text = code;
