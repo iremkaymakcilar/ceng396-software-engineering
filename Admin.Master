@@ -21,7 +21,7 @@
       <script src="js/skel.min.js"></script>
       <style>
           .custom {
-    width: 125px 
+    width: 135px 
 }
       </style>
     <script> new WOW().init(); </script>
@@ -33,13 +33,13 @@
           <a href="AdminHome.aspx" class="btn btn-info custom">
           <span class="glyphicon glyphicon-home"></span> Home  
         </a>
-            <a href="Additem.aspx" class="btn btn-info custom">
+            <a href="AdminAdditem.aspx" class="btn btn-info custom">
           <span class="glyphicon glyphicon-plus"></span> Add New
         </a>
-            <a href="Profil.aspx" class="btn btn-info custom">
+            <a href="AdminProfil.aspx" class="btn btn-info custom">
           <span class="glyphicon glyphicon-user"></span> Profile
         </a>
-            <a href="Chat.aspx" class="btn btn-info custom">
+            <a href="AdminChat.aspx" class="btn btn-info custom">
           <span class="glyphicon glyphicon-comment"></span> Messages
         </a>
             <a href="Notifications.aspx" class="btn btn-info custom">
