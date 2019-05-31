@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="minwin.Admin" %>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>minwin</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/wow.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/init.js"></script>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/mainscript.js"></script>
+      <script src="js/skel.min.js"></script>
+      <style>
+          .custom {
+    width: 125px 
+}
+      </style>
+    <script> new WOW().init(); </script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="navbar">
+        <ul class=""  id="navbarid">
+          <a href="AdminHome.aspx" class="btn btn-info custom">
+          <span class="glyphicon glyphicon-home"></span> Home  
+        </a>
+            <a href="Additem.aspx" class="btn btn-info custom">
+          <span class="glyphicon glyphicon-plus"></span> Add New
+        </a>
+            <a href="Profil.aspx" class="btn btn-info custom">
+          <span class="glyphicon glyphicon-user"></span> Profile
+        </a>
+            <a href="Chat.aspx" class="btn btn-info custom">
+          <span class="glyphicon glyphicon-comment"></span> Messages
+        </a>
+            <a href="Notifications.aspx" class="btn btn-info custom">
+          <span class="glyphicon glyphicon-comment"></span> Notifications
+        </a>
+            <a href="ShowUser.aspx" class="btn btn-info custom">
+          <span class="glyphicon glyphicon-comment"></span> Show All Users
+        </a>
+         
+            
+        </ul>
+      </div>
+      <div class="header-content">
+        <h1>My I introduce myself ?</h1>
+        <h3>Fontend Designer | UI/UX Designer</h3>
+      </div>
+      <img src="img/banner.PNG" alt="">
+      <div class="goahead">
+        <a href="#">go ahead</a>
+      </div>
+    </div>
+    <!-- about-me -->
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+      </asp:ContentPlaceHolder>
+
+    <div class="footer">     
+      <div class="copyright">
+        <h5>CENG 396 TERM PROJECT</h5>
+      </div>
+    </div>
+<div class="goTop"><i class="fa fa-arrow-up" aria-hidden="true"></i></div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/mainscript.js"></script>
+  </body>
+</html>
