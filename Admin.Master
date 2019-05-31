@@ -52,16 +52,11 @@
             
         </ul>
       </div>
-      <div class="header-content">
-        <h1>My I introduce myself ?</h1>
-        <h3>Fontend Designer | UI/UX Designer</h3>
-      </div>
+      
       <img src="img/banner.PNG" alt="">
-      <div class="goahead">
-        <a href="#">go ahead</a>
-      </div>
-    </div>
-    <!-- about-me -->
+      
+   
+  
       <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
 
       </asp:ContentPlaceHolder>
